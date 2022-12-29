@@ -1,0 +1,15 @@
+name: "Checkout LFS with External Storage"
+description: "Checkout Git LFS with non-GitHub Storage"
+inputs:
+  url:
+    required: true
+    description: "URL of external LFS storage (or proxy)"
+  auth:
+    required: false
+    description: "Set to `true` if the `url` is required authentication"
+  credential:
+    required: false
+    description: "et to credential if the `auth` set to `true`"
+runs:
+  using: "node16"
+  main: "dist/index.js"
