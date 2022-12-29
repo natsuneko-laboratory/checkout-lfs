@@ -1,6 +1,6 @@
 {
   "name": "@natsuneko-laboratory/checkout-lfs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "GitHub Actions for checkout with external (non-GitHub) LFS storage",
   "main": "dist/index.js",
   "repository": "https://github.com/natsuneko-laboratory/checkout-lfs.git",
